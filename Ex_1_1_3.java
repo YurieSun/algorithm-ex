@@ -5,7 +5,7 @@
 import java.util.Scanner;
 import com.sun.org.apache.xpath.internal.operations.String;
 
-public class ex_1_1_3{
+public class Ex_1_1_3{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] arr = new int[3];
