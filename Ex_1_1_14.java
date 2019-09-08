@@ -1,5 +1,6 @@
 /**
  * Get an integers N from input, and calculate the largest integer that is not greater than log 2 N.
+ * (Not using functions in Math )
  * Todo: print tips when the input is not integer. 
  */
 import java.util.Scanner;
