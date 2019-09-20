@@ -1,9 +1,9 @@
 /**
- * 用数组实现背包，相当于没有pop的栈
+ * 用数组实现背包
  */
 import java.util.Iterator;
 
-public class ArrayBag<Item> implements Iterable<Item>{
+public class ArrayBag<Item> implements Iterable{
     private int N = 0;
     private Item[] a = (Item[])new Object[1];
     public void add(Item item){
