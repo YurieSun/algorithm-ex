@@ -1,11 +1,9 @@
 /**
- * Non-recursive implementation of Fibonacci
+ * 用容量可变的数组来表示队列。
  */
-import java.util.Stack;
 import java.util.Iterator;
-import java.util.Scanner;
 
-public class ArrayQueue<Item> implements Comparable{
+public class ArrayQueue<Item> implements Iterable<Item>{
     private Item[] a;
     private int head, tail;
     private int N;
@@ -62,8 +60,5 @@ public class ArrayQueue<Item> implements Comparable{
             return item;
         }
         public void remove(){ }
-    }
-    public static void main(String[] args) {
-        
     }
 }
